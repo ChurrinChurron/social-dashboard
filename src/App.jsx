@@ -10,7 +10,7 @@ function App() {
   const [dark, setDark] = useState(true);
 
   return (
-    <main className={`relative ${dark ? 'bg-veryDarkBlue' : 'bg-white'} font-inter xl:px-[10em] 2xl:py-[.5em] 2xl:px-[16em]`}>
+    <main className={`relative ${dark ? 'bg-veryDarkBlue' : 'bg-white'} font-inter xl:px-[5em] 2xl:py-[.5em] 2xl:px-[16em]`}>
         <div className={`${dark ? 'bg-veryDarkBlueTwo' : 'bg-gray-100'} h-60 absolute z-0`}></div>
         <div className="relative z-10 py-8 px-6">
           <div className="md:flex md:justify-between md:items-center">
